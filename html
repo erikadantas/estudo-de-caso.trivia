@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Curiosidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia de Curiosidades</h1>
+        <div id="question-block">
+            <p id="question">Carregando pergunta...</p>
+        </div>
+        <div id="options">
+            <button class="answer-btn" onclick="checkAnswer(0)">Resposta 1</button>
+            <button class="answer-btn" onclick="checkAnswer(1)">Resposta 2</button>
+            <button class="answer-btn" onclick="checkAnswer(2)">Resposta 3</button>
+            <button class="answer-btn" onclick="checkAnswer(3)">Resposta 4</button>
+        </div>
+        <div id="result"></div>
+        <div id="score">Pontos: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
